@@ -1,17 +1,17 @@
-// import { Header } from 'antd/es/layout/layout'
+
 import React from 'react'
+import Header from './components/header'
 import Banner from './components/banner'
 import ProductList from './components/productList'
-import Product from './components/product'
 
-
-export default function bt2() {
+function BT2() {
   return (
     <div>
-      {/* <Header/> */}
-      <ProductList/>
-      <Banner/>
-      <Product/>
+        <Header/>
+        <Banner/>
+        <ProductList/>
     </div>
   )
 }
+
+export default BT2;
